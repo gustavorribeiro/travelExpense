@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="8dp"
     tools:context=".MainActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="@string/distancia" />
 
     <TextView
@@ -21,6 +23,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:hint="@string/preco" />
 
     <TextView
@@ -32,6 +35,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:hint="@string/autonomia" />
 
     <TextView
@@ -44,18 +48,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/gasto_total" />
+        android:layout_marginTop="64dp"
+        android:text="@string/gasto_total"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/valor_total_rs" />
+        android:layout_marginTop="16dp"
+        android:textColor="@color/darkBlue"
+        android:text="@string/valor_total_rs"
+        android:textSize="40sp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/calcular" />
+        android:layout_marginTop="16dp"
+        android:background="@color/whiteGreen"
+        android:padding="28dp"
+        android:text="@string/calcular"
+        android:textColor="@color/white" />
 
 </LinearLayout>
