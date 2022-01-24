@@ -66,12 +66,13 @@
         android:textSize="40sp" />
 
     <Button
+        android:id="@+id/buttonCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:background="@color/whiteGreen"
-        android:padding="28dp"
+        android:padding="20dp"
         android:text="@string/calcular"
         android:textColor="@color/white" />
 
