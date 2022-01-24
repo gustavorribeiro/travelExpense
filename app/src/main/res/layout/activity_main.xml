@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/editDistance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -22,6 +23,7 @@
         android:text="@string/total_de_quilometros" />
 
     <EditText
+        android:id="@+id/editPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -35,6 +37,7 @@
         android:text="@string/preco_por_litro" />
 
     <EditText
+        android:id="@+id/editAutonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -57,6 +60,7 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/textTotalValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

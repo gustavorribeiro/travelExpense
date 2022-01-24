@@ -27,6 +27,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun calculate() {
 
+        val distance = editDistance.text.toString().toFloat()
+        val price = editPrice.text.toString().toFloat()
+        val autonomy = editAutonomy.text.toString().toFloat()
+
+        val totalValue = (distance * price)/autonomy
+
+        textTotalValue.text = "R$ ${"%.2f".format(totalValue)}"
+
     }
 
 }
